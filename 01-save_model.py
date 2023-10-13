@@ -19,9 +19,6 @@ cifar10_class_names = {
     9:"Truck",
 }
 
-
-
-
 cifar10 = keras.datasets.cifar10
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 
